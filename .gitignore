@@ -1,0 +1,23 @@
+# Fichiers Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+*.tfvars
+.terraform.lock.hcl
+
+# Fichiers de crash
+crash.log
+
+# Fichiers de logs
+*.log
+
+# Fichiers sensibles
+*.pem
+*.key
+*.pub
+secrets.tfvars
+
+# Fichiers système
+.DS_Store
+Thumbs.db
