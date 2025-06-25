@@ -31,6 +31,12 @@ variable "az_count" {
   default     = 3
 }
 
+variable "enable_nat_gateway" {
+  description = "Activer ou désactiver les NAT Gateways"
+  type        = bool
+  default     = true
+}
+
 variable "tags" {
   description = "Tags à appliquer à toutes les ressources"
   type        = map(string)
